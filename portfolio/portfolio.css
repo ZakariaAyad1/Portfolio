@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 50, 38);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e84ca;
+    color: #ecf0f1;
+    padding: 1em;
+    border-bottom-right-radius: 50px;
+    border-end-start-radius: 50px;
+    
+    z-index: 99;
+    background-attachment: fixed;
+}
+header h1{
+    text-transform: uppercase;
+}
+header p:hover{
+    font-size: large;
+}
+section {
+    background-color: rgb(217, 14, 14);
+
+    max-width: 800px;
+    border: 5px double red;
+    margin: 5em auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 80px rgb(142, 230, 237);
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+h1, h2 {
+    color: #4e2f2f;
+}
+p {
+    line-height: 1.9;
+}
+.project {
+    margin-bottom: 40px;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+section div h3:hover{
+    font-size: x-large;
+    
+}
+.backgd:hover{
+    background-color: rgb(152, 143, 168);
+    
+
+}
+.photo{
+    width: 100px;
+    height: auto;
+    border-radius: 1em;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 100px 10px;
+    
+}
+.flx{
+    margin-left: 10px;
+
+}
+.photo:hover{
+    width: 120px;
+    height: auto;
+}
+header h1:hover{
+    padding: 5px;
+    box-shadow: 0 0 10000px 1px white ;
+}
